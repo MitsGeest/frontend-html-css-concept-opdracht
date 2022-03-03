@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&display=swap');
+
+/*Responsiveness*/
+/* Alles wat men buiten de media query specificeert, geldt dan voor mobiele apparaten */
+/*p {
+    font-size: 12px;
+}
+
+!* Minimaal 768px betekend regels die gelden voor tablets *!
+@media screen and (min-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+!* Minimaal 992px betekend regels die gelden voor kleine computerschermen *!
+@media screen and (min-width: 992px) {
+    p {
+        font-size: 16px;
+    }
+}*/
+
+/*TO DO
+ - VIEW PROJECT 'knoppen maken (in het articles stuk)
+ - PADDING & MARGINS VAN ALLE SECTIONS EN MAINS ETC.
+ - OPMAAK SEMANTISCHE ELEMENTEN EN CLASSES (articles class 'portfolio' en 'USP')
+ */
+
+
+
+
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #0C0C0C;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+
+}
+
+/*h3 voor titels in BLOCKS. Nog afmaken*/
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    color: #4845E4;
+}
+
+
+}
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+.content-container {
+    flex-basis: 500px;
+}
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------- */
+header {
+    background-color: #4845E4;
+
+}
+
+nav {
+    margin: 0px;
+}
+
+ .navigation{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     row-gap: 30px;
+     flex-wrap: nowrap;
+
+     list-style-type: none;
+     margin: 0;
+}
+
+ .navigation a {
+     color: white;
+ }
+
+
+/* --------------- 4.2 Introduction ------------- */
+
+/* --------------- 4.3 Case-studies -------- */
+
+/* --------------- 4.4 Services ------------------- */
+
+/* --------------- 4.5 Form --------------------- */
+form {
+    background-color: #4845E4;
+}
+#form-type {
+    color: #FFFFFF;
+}
+/* --------------- 4.6 Footer ------------------ */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    background-color: #0C0C0C;
+    font-size: 10px;
+    color: #FFFFFF;
+}

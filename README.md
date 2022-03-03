@@ -17,9 +17,9 @@ Je maakt de aangeleverde designs **zo gedetailleerd mogelijk na**, dus let ook o
 **afgevlakte hoeken** en **kleurgebruik**. De lettergroottes en afstanden tussen elementen mag je op goed geluk inschatten.
 Spreek je innerlijke designer-oog aan! Er zijn designs aangeleverd voor zowel de desktop als mobiele versie. Jouw
 website is dus _responsive_. Jouw webpagina voldoet aan de volgende eisen:
-* In plaats van te clonen, maak je voor dit project een **eigen** project aan, _from scratch_. Zorg dat je Git correct
+* ~~In plaats van te clonen, maak je voor dit project een **eigen** project aan, _from scratch_. Zorg dat je Git correct
   initialiseert en het project, vervolgens alle basis-bestanden (`index.html`, `styles.css`, de map met afbeeldingen etc.) aanmaakt en tenslotte minstens 1 keer naar jouw eigen repository
-  hebt gepusht voor je begint.
+  hebt gepusht voor je begint.~~
 * De gebruikte fonts zijn `Merriweather` voor titels en `Roboto` voor normale tekst. Deze fonts kun je gratis vinden op
   Google Fonts.
 * Bekijk het [kleurenpalet hier](https://coolors.co/5722cd-4b49e8-f2f0ff-ed4385-0c0c0c). Het gaat om de volgende
